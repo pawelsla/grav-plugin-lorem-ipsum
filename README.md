@@ -23,5 +23,5 @@ At first, copy `user/plugins/snappygrav/lorem-ipsum.yaml` into `user/config/plug
 
 Variable **enabled (Default: true)** has two values: **true** or **false** and allow to set enabled or disabled this plugin(NOTE:: If you disable this plugin you should delete `{{ random(returnLoremText) }}` line code in every Twig or Markdown files it exists ). 
 
-Every of the variables: `lorem1`, `lorem2`, `lorem3`, `lorem4`, `lorem5` contains a string built from specific paragraph of *Lorem Ipsum*. When you'll replace with another text, replaced text will be randomized instead of replaced *Lorem Ipsum* fragment. 
+Every of the variables: `lorem1`, `lorem2`, `lorem3`, `lorem4`, `lorem5` contains a string built from specific paragraph of *Lorem Ipsum*. When you'll replace with another text, replaced text will be randomized instead of *Lorem Ipsum* fragment. 
 
