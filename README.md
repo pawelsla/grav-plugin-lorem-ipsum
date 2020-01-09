@@ -17,7 +17,7 @@ Example:
 
 `random` function allows to return output a random paragraph of *Lorem Ipsum* text. So, this content might be changed with every refresh the page.
 
-*Setting defaults*
+#Setting defaults#
 
 At first, copy `user/plugins/snappygrav/lorem-ipsum.yaml` into `user/config/plugins/lorem-ipsum.yaml` and then you can do the modifications.
 
