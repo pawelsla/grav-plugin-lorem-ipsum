@@ -8,7 +8,7 @@ You should download this zip folder of this repository, then unzip it under /you
 
 # How to use
 
-You should set `proccess: twig: true` in YAML settings. Then, we can set Twig variable in the page, wherever we want to publish *Lorem Ipsum* content.
+You should set `proccess: twig: true` in YAML settings. Then, we can set Twig variable on the page, wherever we want to publish *Lorem Ipsum* content.
 Example:
 ```
 {% set returnLoremText = lorem %}
