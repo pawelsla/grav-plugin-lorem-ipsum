@@ -1,0 +1,48 @@
+name: Lorem Ipsum
+version: 0.1.0
+description: Lorem Ipsum random text generator.
+icon: plug
+author:
+  name: Pawel Slabuszewski
+  email: pslabuszewski@yahoo.com
+homepage: https://github.com/pawelsla/grav-plugin-lorem-ipsum
+demo: 
+keywords: grav, plugin, lorem, ipsum
+bugs: https://github.com/pawelsla/grav-plugin-lorem-ipsum/issues
+docs: https://github.com/pawelsla/grav-plugin-lorem-ipsum/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
+    lorem1:
+      type: text
+      label: lorem1
+      help: PLUGIN_LOREM_IPSUM.LOREM1_HELP
+    lorem2:
+      type: text
+      label: lorem2
+      help: PLUGIN_LOREM_IPSUM.LOREM2_HELP
+    lorem3:
+      type: text
+      label: lorem3
+      help: PLUGIN_LOREM_IPSUM.LOREM3_HELP
+    lorem4:
+      type: text
+      label: lorem4
+      help: PLUGIN_LOREM_IPSUM.LOREM4_HELP
+    lorem5:
+      type: text
+      label: lorem5
+      help: PLUGIN_LOREM_IPSUM.LOREM5_HELP
